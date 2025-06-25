@@ -75,6 +75,16 @@ body {
   color: #2A4054;
 }
 
+.container-timer .reset {
+  background-color: #b0d2f0;
+  font-size: 1.625rem;
+  text-transform: uppercase;
+  width: 200px;
+  height: 55px;
+  box-shadow: 0 2.5px rgb(0 0 0 / .5);
+  color: #1a2e41;
+}
+
 
 /* Estilização divisória */
 .divider {
