@@ -162,3 +162,20 @@ body {
 .tasks-list ol::-webkit-scrollbar {
   visibility: hidden;
 }
+
+.tasks-list .task-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.tasks-list .task-container:not(:last-child) {
+  border-bottom: 1px solid #b0b0b0b7;
+}
+
+.tasks-list .task-container button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
